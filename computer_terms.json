@@ -1,0 +1,662 @@
+{
+  "computer_terms": [
+    {
+      "term": "コンピュータ",
+      "kana": "コンピュータ",
+      "english": "Computer",
+      "definitions": {
+        "JPN": "データを<ruby><rb>処理</rb><rt>しょり</rt></ruby>して<ruby><rb>計算</rb><rt>けいさん</rt></ruby>や<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>の<ruby><rb>管理</rb><rt>かんり</rt></ruby>を<ruby><rb>行</rb><rt>おこな</rt></ruby>う<ruby><rb>電子</rb><rt>でんし</rt></ruby><ruby><rb>機器</rb><rt>きき</rt></ruby>。スマートフォンやパソコンもコンピュータの<ruby><rb>一種</rb><rt>いっしゅ</rt></ruby>。",
+        "ENG": "A device that processes data for calculations and information management. Smartphones and PCs are also types of computers.",
+        "VIE": "Thiết bị xử lý dữ liệu để tính toán và quản lý thông tin. Điện thoại thông minh và máy tính cá nhân cũng là một dạng máy tính.",
+        "NEP": "डेटा प्रशोधन गरी गणना र सूचना व्यवस्थापन गर्ने इलेक्ट्रोनिक उपकरण। स्मार्टफोन र पर्सनल कम्प्युटरहरू पनि कम्प्युटरका प्रकारहरू हुन्।",
+        "MYA": "ဒေတာများကို ကိန်းဂဏန်းတွက်ချက်ခြင်းနှင့် အချက်အလက်စီမံခန့်ခွဲခြင်းအတွက် ပြုလုပ်သည့် အီလက်ထရွန်းနစ် စက်ကိရိယာ။ စမတ်ဖုန်းများနှင့် ပုဂ္ဂလိကကွန်ပျူတာများလည်း ကွန်ပျူတာအမျိုးအစားများဖြစ်သည်။",
+        "SIN": "දත්ත සැකසීම සහ ගණනය කිරීම සහ තොරතුරු කළමනාකරණය කිරීම සඳහා ඉලෙක්ට්‍රොනික උපාංගයක්. ස්මාර්ට්ෆෝන් සහ පරිගණක පරිගණක ද පරිගණක වර්ග වේ.",
+        "BEN": "একটি ডিভাইস যা তথ্য প্রক্রিয়া করে গণনা এবং তথ্য ব্যবস্থাপনা করে। স্মার্টফোন এবং পিসি উভয়ই কম্পিউটারের ধরন।"
+      }
+    },
+    {
+      "term": "ハードウェア",
+      "kana": "ハードウェア",
+      "english": "Hardware",
+      "definitions": {
+        "JPN": "コンピュータの<ruby><rb>物理的</rb><rt>ぶつりてき</rt></ruby>な<ruby><rb>部品</rb><rt>ぶひん</rt></ruby>や<ruby><rb>機器</rb><rt>きき</rt></ruby>のこと。<ruby><rb>例</rb><rt>れい</rt></ruby>: CPU、メモリ、ストレージ、キーボード、マウスなど。",
+        "ENG": "The physical components of a computer. Examples include CPU, memory, storage, keyboard, and mouse.",
+        "VIE": "Các bộ phận vật lý của máy tính. Ví dụ: CPU, bộ nhớ, bộ lưu trữ, bàn phím, chuột.",
+        "NEP": "कम्प्युटरका भौतिक घटकहरू। उदाहरणहरूमा CPU, मेमोरी, स्टोरेज, किबोर्ड, र माउस समावेश छन्।",
+        "MYA": "ကွန်ပျူတာ၏ ရုပ်ပိုင်းဆိုင်ရာအစိတ်အပိုင်းများ။ ဥပမာများမှာ CPU, မှတ်ဉာဏ်, သိုလှောင်မှု, ကီးဘုတ်, နှင့် မောက်စ် ပါဝင်သည်။",
+        "SIN": "පරිගණකයේ භෞතික සංරචක. උදාහරණ ලෙස CPU, මතකය, ගබඩා කිරීම, යතුරුපුවරුව, සහ මවුස්.",
+        "BEN": "কম্পিউটারের শারীরিক উপাদানগুলি। উদাহরণস্বরূপ CPU, মেমরি, স্টোরেজ, কীবোর্ড এবং মাউস।"
+      }
+    },
+    {
+      "term": "ソフトウェア",
+      "kana": "ソフトウェア",
+      "english": "Software",
+      "definitions": {
+        "JPN": "コンピュータを<ruby><rb>動</rb><rt>うご</rt></ruby>かすためのプログラムやアプリケーションのこと。<ruby><rb>例</rb><rt>れい</rt></ruby>: Windows、Word、ゲームソフトなど。",
+        "ENG": "Programs and applications that run on a computer. Examples include Windows, Word, and game software.",
+        "VIE": "Các chương trình và ứng dụng chạy trên máy tính. Ví dụ: Windows, Word, phần mềm trò chơi.",
+        "NEP": "कम्प्युटरमा चल्ने प्रोग्रामहरू र अनुप्रयोगहरू। उदाहरणहरूमा Windows, Word, र गेम सफ्टवेयर समावेश छन्।",
+        "MYA": "ကွန်ပျူတာပေါ်တွင် လည်ပတ်သော ပရိုဂရမ်များနှင့် အက်ပ်များ။ ဥပမာများမှာ Windows, Word, နှင့် ဂိမ်းဆော့ဖ်ဝဲ ပါဝင်သည်။",
+        "SIN": "පරිගණකයේ ක්‍රියාත්මක වන වැඩසටහන් සහ යෙදුම්. උදාහරණ ලෙස Windows, Word, සහ ක්‍රීඩා මෘදුකාංග.",
+        "BEN": "কম্পিউটারে চলমান প্রোগ্রাম এবং অ্যাপ্লিকেশন। উদাহরণস্বরূপ Windows, Word, এবং গেম সফটওয়্যার।"
+      }
+    },
+    {
+      "term": "CPU",
+      "kana": "<ruby><rb>CPU</rb><rt>シーピーユー</rt></ruby>",
+      "english": "Central Processing Unit",
+      "definitions": {
+        "JPN": "コンピュータの「<ruby><rb>頭脳</rb><rt>ずのう</rt></ruby>」にあたる<ruby><rb>部分</rb><rt>ぶぶん</rt></ruby>で、データの<ruby><rb>計算</rb><rt>けいさん</rt></ruby>や<ruby><rb>処理</rb><rt>しょり</rt></ruby>を<ruby><rb>行</rb><rt>おこな</rt></ruby>う<ruby><rb>重要</rb><rt>じゅうよう</rt></ruby>な<ruby><rb>部品</rb><rt>ぶひん</rt></ruby>。",
+        "ENG": "The \"brain\" of a computer, responsible for processing data and performing calculations.",
+        "VIE": "\"Bộ não\" của máy tính, chịu trách nhiệm xử lý dữ liệu và thực hiện các phép tính.",
+        "NEP": "कम्प्युटरको \"मस्तिष्क\", डेटा प्रशोधन र गणना गर्ने जिम्मेवार।",
+        "MYA": "ကွန်ပျူတာ၏ \"ဦးနှောက်\", ဒေတာများကို ပြုလုပ်ခြင်းနှင့် တွက်ချက်ခြင်းအတွက် တာဝန်ရှိသည်။",
+        "SIN": "පරිගණකයේ \"මොළය\", දත්ත සැකසීම සහ ගණනය කිරීම සඳහා වගකීම දරයි.",
+        "BEN": "কম্পিউটারের \"মস্তিষ্ক\", যা তথ্য প্রক্রিয়াকরণ এবং গণনা সম্পাদনের জন্য দায়ী।"
+      }
+    },
+    {
+      "term": "メモリ",
+      "kana": "メモリ",
+      "english": "Memory",
+      "definitions": {
+        "JPN": "データやプログラムを<ruby><rb>一時的</rb><rt>いちじてき</rt></ruby>に<ruby><rb>記憶</rb><rt>きおく</rt></ruby>する<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>。<ruby><rb>作業</rb><rt>さぎょう</rt></ruby><ruby><rb>中</rb><rt>ちゅう</rt></ruby>のデータを<ruby><rb>保存</rb><rt>ほぞん</rt></ruby>し、<ruby><rb>処理</rb><rt>しょり</rt></ruby><ruby><rb>速度</rb><rt>そくど</rt></ruby>を<ruby><rb>向上</rb><rt>こうじょう</rt></ruby>させる<ruby><rb>役割</rb><rt>やくわり</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>つ。",
+        "ENG": "A temporary storage space for data and programs, helping to store active data and improve processing speed.",
+        "VIE": "Không gian lưu trữ tạm thời cho dữ liệu và chương trình, giúp lưu trữ dữ liệu đang hoạt động và tăng tốc độ xử lý.",
+        "NEP": "डाटा र प्रोग्रामहरू अस्थायी रूपमा भण्डारण गर्ने ठाउँ, जसले सक्रिय डाटा सुरक्षित गर्न र प्रशोधन गति सुधार गर्न मद्दत गर्दछ।",
+        "MYA": "ဒေတာနှင့်ပရိုဂရမ်များကို အချိန်ကာလတိတိ မှတ်သားရာနေရာ။ ၎င်းသည် အသုံးပြုနေသော ဒေတာကို သိမ်းဆည်းပြီး စက္ကန့်မြန်မှုကို တိုးတက်စေသည်။",
+        "SIN": "දත්ත සහ වැඩසටහන් තාවකාලිකව ගබඩා කරන ස්ථානයකි. ක්‍රියාත්මක දත්ත ගබඩා කර, සැකසුම් වේගය වැඩි දියුණු කිරීමට උපකාරී වේ.",
+        "BEN": "ডেটা এবং প্রোগ্রামের জন্য একটি অস্থায়ী স্টোরেজ স্থান, যা সক্রিয় ডেটা সংরক্ষণ করতে এবং প্রসেসিং গতি উন্নত করতে সহায়তা করে।"
+      }
+    },
+    {
+      "term": "オペレーティングシステム",
+      "kana": "オペレーティングシステム",
+      "english": "Operating System",
+      "definitions": {
+        "JPN": "コンピュータを<ruby><rb>管理</rb><rt>かんり</rt></ruby>し、ソフトウェアやハードウェアが<ruby><rb>動作</rb><rt>どうさ</rt></ruby>するための<ruby><rb>基本的</rb><rt>きほんてき</rt></ruby>なプログラム。",
+        "ENG": "A fundamental program that manages a computer and allows software and hardware to function.",
+        "VIE": "Một chương trình cơ bản quản lý máy tính và cho phép phần mềm và phần cứng hoạt động.",
+        "NEP": "कम्प्युटरलाई व्यवस्थापन गर्ने र सफ्टवेयर तथा हार्डवेयरलाई कार्य गर्न मद्दत गर्ने आधारभूत प्रोग्राम।",
+        "MYA": "ကွန်ပျူတာကိုစီမံခန့်ခွဲပြီး ဆော့ဖ်ဝဲနှင့် ဟာ့ဒ်ဝဲများကို လုပ်ဆောင်နိုင်စေရန် အခြေခံပရိုဂရမ်းဖြစ်သည်။",
+        "SIN": "පරිගණකය කළමනාකරණය කර, මෘදුකාංග සහ දෘඩාංග ක්‍රියාත්මක වීමට හැකියාව ලබාදෙන මූලික වැඩසටහනකි.",
+        "BEN": "একটি মৌলিক প্রোগ্রাম যা কম্পিউটার পরিচালনা করে এবং সফটওয়্যার ও হার্ডওয়্যারকে কাজ করতে সহায়তা করে।"
+      }
+    },
+    {
+      "term": "ファイル",
+      "kana": "ファイル",
+      "english": "File",
+      "definitions": {
+        "JPN": "コンピュータに<ruby><rb>保存</rb><rt>ほぞん</rt></ruby>されるデータのまとまり。",
+        "ENG": "A collection of data stored on a computer.",
+        "VIE": "Một tập hợp dữ liệu được lưu trữ trên máy tính.",
+        "NEP": "कम्प्युटरमा भण्डारण गरिएको डाटा संग्रह।",
+        "MYA": "ကွန်ပျူတာတွင်သိမ်းဆည်းထားသော ဒေတာစုစည်းမှု။",
+        "SIN": "පරිගණකයේ ගබඩා කර ඇති දත්ත එකතුවකි.",
+        "BEN": "কম্পিউটারে সংরক্ষিত ডেটার একটি সংগ্রহ।"
+      }
+    },
+    {
+      "term": "フォルダ",
+      "kana": "フォルダ",
+      "english": "Folder",
+      "definitions": {
+        "JPN": "<ruby><rb>複数</rb><rt>ふくすう</rt></ruby>のファイルを<ruby><rb>整理</rb><rt>せいり</rt></ruby>して<ruby><rb>保存</rb><rt>ほぞん</rt></ruby>するための<ruby><rb>入</rb><rt>い</rt></ruby>れ<ruby><rb>物</rb><rt>もの</rt></ruby>。",
+        "ENG": "A container used to organize and store multiple files.",
+        "VIE": "Một thư mục dùng để tổ chức và lưu trữ nhiều tập tin.",
+        "NEP": "धेरै फाइलहरूलाई व्यवस्थापन गर्न र भण्डारण गर्न प्रयोग गरिने कन्टेनर।",
+        "MYA": "ဖိုင်များစီမံခန့်ခွဲပြီးသိမ်းဆည်းရန်အသုံးပြုသော ထည့်ထားရာနေရာ။",
+        "SIN": "බහු ගොනු සංවිධානය කර ගබඩා කිරීමට භාවිතා කරන පටියකි.",
+        "BEN": "একাধিক ফাইল সংরক্ষণ ও সংগঠিত করার জন্য ব্যবহৃত একটি কন্টেইনার।"
+      }
+    },
+    {
+      "term": "バイト",
+      "kana": "バイト",
+      "english": "Byte",
+      "definitions": {
+        "JPN": "データの<ruby><rb>最小</rb><rt>さいしょう</rt></ruby><ruby><rb>単位</rb><rt>たんい</rt></ruby>の<ruby><rb>一</rb><rt>ひと</rt></ruby>つで、<ruby><rb>通常</rb><rt>つうじょう</rt></ruby>8ビットで<ruby><rb>構成</rb><rt>こうせい</rt></ruby>される。",
+        "ENG": "A fundamental unit of data, usually consisting of 8 bits.",
+        "VIE": "Một đơn vị dữ liệu cơ bản, thường bao gồm 8 bit.",
+        "NEP": "सामान्यतया ८ बिट समावेश गर्ने डाटाको आधारभूत एकाई।",
+        "MYA": "သမားရိုးကျ ၈ ဘစ်ပါဝင်သော ဒေတာ၏အခြေခံယူနစ်။",
+        "SIN": "සාමාන්‍යයෙන් බිට් 8 කින් සමන්විත දත්තයේ මූලික ඒකකයයි.",
+        "BEN": "সাধারণত ৮ বিট সমন্বিত ডেটার একটি মৌলিক একক।"
+      }
+    },
+    {
+      "term": "ビット",
+      "kana": "ビット",
+      "english": "Bit",
+      "definitions": {
+        "JPN": "データの<ruby><rb>最小</rb><rt>さいしょう</rt></ruby><ruby><rb>単位</rb><rt>たんい</rt></ruby>で、0 または 1 の<ruby><rb>値</rb><rt>あたい</rt></ruby>を<ruby><rb>持</rb><rt>も</rt></ruby>つ。",
+        "ENG": "The smallest unit of data, which can have a value of 0 or 1.",
+        "VIE": "Đơn vị dữ liệu nhỏ nhất, có thể có giá trị 0 hoặc 1.",
+        "NEP": "डाटाको सबैभन्दा सानो एकाइ, जसले ० वा १ को मान राख्न सक्छ।",
+        "MYA": "ဒေတာ၏အငယ်ဆုံးယူနစ်ဖြစ်ပြီး၊ ၀ သို့မဟုတ် ၁ တန်ဖိုးရှိနိုင်သည်။",
+        "SIN": "දත්තයේ කුඩාම ඒකකය වන අතර, 0 හෝ 1 යන අගයන් ගත හැක.",
+        "BEN": "ডেটার ক্ষুদ্রতম একক, যা 0 বা 1 মান ধারণ করতে পারে।"
+      }
+    },
+    {
+      "term": "ディレクトリ",
+      "kana": "ディレクトリ",
+      "english": "Directory",
+      "definitions": {
+        "JPN": "ファイルやフォルダを<ruby><rb>整理</rb><rt>せいり</rt></ruby>して<ruby><rb>保管</rb><rt>ほかん</rt></ruby>するための<ruby><rb>場所</rb><rt>ばしょ</rt></ruby>。",
+        "ENG": "A location used to organize and store files and folders.",
+        "VIE": "Một vị trí được sử dụng để tổ chức và lưu trữ tập tin và thư mục.",
+        "NEP": "फाइल र फोल्डरहरू व्यवस्थित गर्न र भण्डारण गर्न प्रयोग गरिने स्थान।",
+        "MYA": "ဖိုင်များနှင့်ဖိုလ်ဒါများစီစဉ်သိမ်းဆည်းရန်အသုံးပြုသောနေရာ။",
+        "SIN": "ගොනු සහ ෆෝල්ඩර කළමනාකරණය කර ගබඩා කිරීමට භාවිතා කරන ස්ථානයකි.",
+        "BEN": "ফাইল এবং ফোল্ডার সংরক্ষণ ও সংগঠিত করার জন্য ব্যবহৃত একটি স্থান।"
+      }
+    },
+    {
+      "term": "パス",
+      "kana": "パス",
+      "english": "Path",
+      "definitions": {
+        "JPN": "ファイルやフォルダの<ruby><rb>位置</rb><rt>いち</rt></ruby>を<ruby><rb>示</rb><rt>しめ</rt></ruby>す<ruby><rb>情報</rb><rt>じょうほう</rt></ruby>。",
+        "ENG": "Information that indicates the location of a file or folder.",
+        "VIE": "Thông tin chỉ ra vị trí của tập tin hoặc thư mục.",
+        "NEP": "फाइल वा फोल्डरको स्थान देखाउने जानकारी।",
+        "MYA": "ဖိုင် သို့မဟုတ် ဖိုလ်ဒါ တည်နေရာကိုပြသသောသတင်းအချက်အလက်။",
+        "SIN": "ගොනු හෝ ෆෝල්ඩරයක පිහිටීම දැක්වෙන තොරතුරු.",
+        "BEN": "ফাইল বা ফোল্ডারের অবস্থান নির্দেশকারী তথ্য।"
+      }
+    },
+    {
+      "term": "バッテリー",
+      "kana": "バッテリー",
+      "english": "Battery",
+      "definitions": {
+        "JPN": "<ruby><rb>電力</rb><rt>でんりょく</rt></ruby>を<ruby><rb>蓄</rb><rt>たくわ</rt></ruby>えて、コンピュータや<ruby><rb>電子</rb><rt>でんし</rt></ruby><ruby><rb>機器</rb><rt>きき</rt></ruby>に<ruby><rb>電力</rb><rt>でんりょく</rt></ruby>を<ruby><rb>供給</rb><rt>きょうきゅう</rt></ruby>する<ruby><rb>装置</rb><rt>そうち</rt></ruby>。",
+        "ENG": "A device that stores power and supplies electricity to computers and electronic devices.",
+        "VIE": "Một thiết bị lưu trữ điện năng và cung cấp điện cho máy tính và thiết bị điện tử.",
+        "NEP": "शक्ति संचित गर्ने र कम्प्युटर तथा इलेक्ट्रोनिक यन्त्रहरूलाई विद्युत् आपूर्ति गर्ने उपकरण।",
+        "MYA": "လျှပ်စစ်စွမ်းအင်သိမ်းဆည်းပြီး ကွန်ပျူတာနှင့် အီလက်ထရောနစ်စက်များကို လျှပ်စစ်ဓာတ်အားပေးသည့်စက်။",
+        "SIN": "විදුලි බල ගබඩා කර පරිගණක සහ ඉලෙක්ට්‍රොනික උපකරණ වෙත විදුලිය සැපයීමට භාවිතා කරන උපකරණයකි.",
+        "BEN": "একটি ডিভাইস যা বিদ্যুৎ সংরক্ষণ করে এবং কম্পিউটার ও ইলেকট্রনিক ডিভাইসে বিদ্যুৎ সরবরাহ করে।"
+      }
+    },
+    {
+      "term": "マウス",
+      "kana": "マウス",
+      "english": "Mouse",
+      "definitions": {
+        "JPN": "コンピュータの<ruby><rb>画面</rb><rt>がめん</rt></ruby><ruby><rb>上</rb><rt>じょう</rt></ruby>のカーソルを<ruby><rb>動</rb><rt>うご</rt></ruby>かし、クリックやスクロールをする<ruby><rb>入力</rb><rt>にゅうりょく</rt></ruby><ruby><rb>装置</rb><rt>そうち</rt></ruby>。",
+        "ENG": "An input device that moves the cursor on the computer screen and allows clicking and scrolling.",
+        "VIE": "Thiết bị đầu vào giúp di chuyển con trỏ trên màn hình máy tính và thực hiện các thao tác nhấp chuột, cuộn.",
+        "NEP": "कम्प्युटर स्क्रिनमा कर्सर सार्न र क्लिक वा स्क्रोल गर्न प्रयोग गरिने इनपुट उपकरण।",
+        "MYA": "ကွန်ပျူတာဖန်သားပြင်ပေါ်တွင် ကာဆာရွှေ့ပြီး နှိပ်ခြင်းနှင့် လှိမ့်ခြင်းလုပ်ဆောင်နိုင်သော ထည့်သွင်းမှုစက်။",
+        "SIN": "පරිගණක තිරයේ කර්සරය ගමන් කිරීම සහ ක්ලික් කිරීම, ස්ක්‍රෝල් කිරීම සඳහා භාවිතා කරන ආදාන උපකරණයකි.",
+        "BEN": "একটি ইনপুট ডিভাইস যা কম্পিউটার স্ক্রিনে কার্সর সরাতে এবং ক্লিক ও স্ক্রোল করতে ব্যবহৃত হয়।"
+      }
+    },
+    {
+      "term": "キーボード",
+      "kana": "キーボード",
+      "english": "Keyboard",
+      "definitions": {
+        "JPN": "<ruby><rb>文字</rb><rt>もじ</rt></ruby>や<ruby><rb>記号</rb><rt>きごう</rt></ruby>を<ruby><rb>入力</rb><rt>にゅうりょく</rt></ruby>するためのキーが<ruby><rb>並</rb><rt>なら</rt></ruby>んだ<ruby><rb>入力</rb><rt>にゅうりょく</rt></ruby><ruby><rb>装置</rb><rt>そうち</rt></ruby>。",
+        "ENG": "An input device with keys used to enter letters and symbols.",
+        "VIE": "Thiết bị đầu vào có các phím dùng để nhập chữ cái và ký hiệu.",
+        "NEP": "अक्षरहरू र प्रतीकहरू प्रविष्ट गर्न प्रयोग गरिने कुञ्जीहरू भएको इनपुट उपकरण।",
+        "MYA": "စာလုံးများနှင့် သင်္ကေတများထည့်သွင်းရန်သော ခလုတ်များပါဝင်သည့် ထည့်သွင်းမှုစက်။",
+        "SIN": "අක්ෂර සහ සංකේත ඇතුළත් කිරීමට යතුරු ඇති ආදාන උපකරණයකි.",
+        "BEN": "একটি ইনপুট ডিভাইস যাতে অক্ষর এবং প্রতীক প্রবেশ করানোর জন্য কী থাকে।"
+      }
+    },
+    {
+      "term": "モニター",
+      "kana": "モニター",
+      "english": "Monitor",
+      "definitions": {
+        "JPN": "コンピュータの<ruby><rb>画面</rb><rt>がめん</rt></ruby>を<ruby><rb>表示</rb><rt>ひょうじ</rt></ruby>する<ruby><rb>出力</rb><rt>しゅつりょく</rt></ruby><ruby><rb>装置</rb><rt>そうち</rt></ruby>。",
+        "ENG": "An output device that displays the computer screen.",
+        "VIE": "Thiết bị đầu ra hiển thị màn hình máy tính.",
+        "NEP": "कम्प्युटर स्क्रिन देखाउने आउटपुट उपकरण।",
+        "MYA": "ကွန်ပျူတာဖန်သားပြင်ကို ပြသသော ထုတ်လုပ်မှုစက်။",
+        "SIN": "පරිගණක තිරය පෙන්වනු ලබන ප්‍රතිදාන උපකරණයකි.",
+        "BEN": "একটি আউটপুট ডিভাইস যা কম্পিউটার স্ক্রিন প্রদর্শন করে।"
+      }
+    },
+    {
+      "term": "プリンター",
+      "kana": "プリンター",
+      "english": "Printer",
+      "definitions": {
+        "JPN": "コンピュータのデータを<ruby><rb>紙</rb><rt>かみ</rt></ruby>に<ruby><rb>印刷</rb><rt>いんさつ</rt></ruby>する<ruby><rb>出力</rb><rt>しゅつりょく</rt></ruby><ruby><rb>装置</rb><rt>そうち</rt></ruby>。",
+        "ENG": "An output device that prints computer data onto paper.",
+        "VIE": "Thiết bị đầu ra in dữ liệu từ máy tính ra giấy.",
+        "NEP": "कम्प्युटर डाटालाई कागजमा मुद्रण गर्ने आउटपुट उपकरण।",
+        "MYA": "ကွန်ပျူတာဒေတာကို စာရွက်ပေါ်တွင် ပရင့်ထုတ်ပေးသော ထုတ်လုပ်မှုစက်။",
+        "SIN": "පරිගණක දත්ත කඩදාසි මත මුද්‍රණය කරන ප්‍රතිදාන උපකරණයකි.",
+        "BEN": "একটি আউটপুট ডিভাইস যা কম্পিউটার ডেটাকে কাগজে মুদ্রণ করে।"
+      }
+    },
+    {
+      "term": "スキャナー",
+      "kana": "スキャナー",
+      "english": "Scanner",
+      "definitions": {
+        "JPN": "<ruby><rb>紙</rb><rt>かみ</rt></ruby>の<ruby><rb>文書</rb><rt>ぶんしょ</rt></ruby>や<ruby><rb>写真</rb><rt>しゃしん</rt></ruby>をデジタルデータに<ruby><rb>変換</rb><rt>へんかん</rt></ruby>する<ruby><rb>入力</rb><rt>にゅうりょく</rt></ruby><ruby><rb>装置</rb><rt>そうち</rt></ruby>",
+        "ENG": "An input device that converts paper documents and photos into digital data.",
+        "VIE": "Thiết bị đầu vào chuyển đổi tài liệu giấy và ảnh thành dữ liệu số.",
+        "NEP": "कागजी कागजात र फोटोहरूलाई डिजिटल डाटामा परिवर्तन गर्ने इनपुट उपकरण।",
+        "MYA": "စာရွက်စာတမ်းများနှင့် ဓာတ်ပုံများကို ဒစ်ဂျစ်တယ်ဒေတာအဖြစ်ပြောင်းလဲသည့် ထည့်သွင်းမှုစက်။",
+        "SIN": "කඩදාසි ලියවිලි සහ ඡායාරූප ඩිජිටල් දත්ත බවට පරිවර්තනය කරන ආදාන උපකරණයකි.",
+        "BEN": "একটি ইনপুট ডিভাইস যা কাগজের নথি এবং ছবিকে ডিজিটাল ডাটায় রূপান্তর করে।"
+      }
+    },
+    {
+      "term": "ディスプレイ",
+      "kana": "ディスプレイ",
+      "english": "Display",
+      "definitions": {
+        "JPN": "コンピュータの<ruby><rb>画面</rb><rt>がめん</rt></ruby>を<ruby><rb>映</rb><rt>うつ</rt></ruby>し<ruby><rb>出</rb><rt>だ</rt></ruby>す<ruby><rb>装置</rb><rt>そうち</rt></ruby>で、モニターとも<ruby><rb>呼</rb><rt>よ</rt></ruby>ばれる。",
+        "ENG": "A device that displays the computer screen, also called a monitor.",
+        "VIE": "Thiết bị hiển thị màn hình máy tính, còn được gọi là màn hình.",
+        "NEP": "कम्प्युटर स्क्रिन देखाउने उपकरण, जसलाई मोनिटर पनि भनिन्छ।",
+        "MYA": "ကွန်ပျူတာဖန်သားပြင်ကို ပြသသော စက်ဖြစ်ပြီး မော်နီတာဟုလည်းခေါ်သည်။",
+        "SIN": "පරිගණක තිරය පෙන්වනු ලබන උපකරණයකි, එය මොනිටරය ලෙසද හැඳින්වේ.",
+        "BEN": "একটি ডিভাইস যা কম্পিউটার স্ক্রিন প্রদর্শন করে, এটিকে মনিটরও বলা হয়।"
+      }
+    },
+    {
+      "term": "電源",
+      "kana": "<ruby><rb>電源</rb><rt>でんげん</rt></ruby>",
+      "english": "Power Supply",
+      "definitions": {
+        "JPN": "コンピュータに<ruby><rb>電力</rb><rt>でんりょく</rt></ruby>を<ruby><rb>供給</rb><rt>きょうきゅう</rt></ruby>する<ruby><rb>装置</rb><rt>そうち</rt></ruby>。",
+        "ENG": "A device that supplies power to a computer.",
+        "VIE": "Thiết bị cung cấp điện cho máy tính.",
+        "NEP": "कम्प्युटरलाई विद्युत् आपूर्ति गर्ने उपकरण।",
+        "MYA": "ကွန်ပျူတာကို မျှဝေပေးသော ပါဝါထောက်ပံ့မှုစက်။",
+        "SIN": "පරිගණකයට විදුලිබල සපයන උපකරණයකි.",
+        "BEN": "একটি ডিভাইস যা কম্পিউটারকে বিদ্যুৎ সরবরাহ করে।"
+      }
+    },
+    {
+      "term": "マザーボード",
+      "kana": "マザーボード",
+      "english": "Motherboard",
+      "definitions": {
+        "JPN": "コンピュータの<ruby><rb>各</rb><rt>かく</rt></ruby><ruby><rb>部品</rb><rt>ぶひん</rt></ruby>を<ruby><rb>接続</rb><rt>せつぞく</rt></ruby>する<ruby><rb>基盤</rb><rt>きばん</rt></ruby>となる<ruby><rb>重要</rb><rt>じゅうよう</rt></ruby>な<ruby><rb>回路</rb><rt>かいろ</rt></ruby><ruby><rb>基板</rb><rt>きばん</rt></ruby>。",
+        "ENG": "A crucial circuit board that connects various computer components.",
+        "VIE": "Bảng mạch quan trọng kết nối các bộ phận khác nhau của máy tính.",
+        "NEP": "कम्प्युटरका विभिन्न भागहरू जोड्ने महत्त्वपूर्ण सर्किट बोर्ड।",
+        "MYA": "ကွန်ပျူတာ၏ အစိတ်အပိုင်းများကို ချိတ်ဆက်သော အရေးကြီးသော စက်ခွန်ပြား။",
+        "SIN": "පරිගණකයේ විවිධ කොටස් සම්බන්ධ කරන වැදගත් පරිපථ පුවරුවකි.",
+        "BEN": "একটি গুরুত্বপূর্ণ সার্কিট বোর্ড যা বিভিন্ন কম্পিউটার উপাদান সংযুক্ত করে।"
+      }
+    },
+    {
+      "term": "ハードディスク",
+      "kana": "ハードディスク",
+      "english": "Hard Disk",
+      "definitions": {
+        "JPN": "データを<ruby><rb>長期間</rb><rt>ちょうきかん</rt></ruby><ruby><rb>保存</rb><rt>ほぞん</rt></ruby>できる<ruby><rb>記憶</rb><rt>きおく</rt></ruby><ruby><rb>装置</rb><rt>そうち</rt></ruby>で、<ruby><rb>磁気</rb><rt>じき</rt></ruby>ディスクを<ruby><rb>使用</rb><rt>しよう</rt></ruby>する。",
+        "ENG": "A storage device that can store data for a long time, using magnetic disks.",
+        "VIE": "Thiết bị lưu trữ có thể lưu dữ liệu trong thời gian dài, sử dụng đĩa từ.",
+        "NEP": "डाटा लामो समयसम्म भण्डारण गर्न सक्ने, चुम्बकीय डिस्क प्रयोग गर्ने भण्डारण उपकरण।",
+        "MYA": "ဒေတာကို ကြာရှည်သိမ်းဆည်းနိုင်သည့်, သံလိုက်ဒီစ့်ကို အသုံးပြုသည့် သိုလှောင်မှုစက်။",
+        "SIN": "දත්ත දිගු කාලයක් ගබඩා කළ හැකි, චුම්බක ඩිස්ක් භාවිතා කරන ගබඩා උපකරණයකි.",
+        "BEN": "একটি স্টোরেজ ডিভাইস যা দীর্ঘ সময় ধরে ডেটা সংরক্ষণ করতে পারে, এটি চৌম্বকীয় ডিস্ক ব্যবহার করে।"
+      }
+    },
+    {
+      "term": "SSD",
+      "kana": "<ruby><rb>SSD</rb><rt>エスエスディー</rt></ruby>",
+      "english": "Solid State Drive",
+      "definitions": {
+        "JPN": "フラッシュメモリを<ruby><rb>使用</rb><rt>しよう</rt></ruby>した<ruby><rb>高速</rb><rt>こうそく</rt></ruby>なデータ<ruby><rb>記憶</rb><rt>きおく</rt></ruby><ruby><rb>装置</rb><rt>そうち</rt></ruby>で、ハードディスクよりも<ruby><rb>速</rb><rt>はや</rt></ruby>い。",
+        "ENG": "A high-speed data storage device using flash memory, faster than a hard disk.",
+        "VIE": "Thiết bị lưu trữ dữ liệu tốc độ cao sử dụng bộ nhớ flash, nhanh hơn ổ cứng.",
+        "NEP": "फ्ल्यास मेमोरी प्रयोग गर्ने उच्च गतिको भण्डारण उपकरण, हार्ड डिस्कभन्दा छिटो।",
+        "MYA": "ဖလက်ရှ်မှတ်ဉာဏ်ကို အသုံးပြုသည့် မြန်ဆန်သော ဒေတာသိုလှောင်မှုစက်, ဟာ့ဒ်ဒီစ့်ထက် ပိုမြန်သည်။",
+        "SIN": "ෆ්ලෑෂ් මතකය භාවිතා කරන ඉතා වේගවත් දත්ත ගබඩා උපකරණයක් වන අතර, දෘඩ තැටියට වඩා වේගවත්ය.",
+        "BEN": "একটি উচ্চ-গতির ডেটা সংরক্ষণ ডিভাইস যা ফ্ল্যাশ মেমোরি ব্যবহার করে, এটি হার্ড ডিস্কের চেয়ে দ্রুত।"
+      }
+    },
+    {
+      "term": "USB",
+      "kana": "<ruby><rb>USB</rb><rt>ユーエスビー</rt></ruby>",
+      "english": "Universal Serial Bus",
+      "definitions": {
+        "JPN": "コンピュータや<ruby><rb>周辺</rb><rt>しゅうへん</rt></ruby><ruby><rb>機器</rb><rt>きき</rt></ruby>を<ruby><rb>接続</rb><rt>せつぞく</rt></ruby>するための<ruby><rb>標準的</rb><rt>ひょうじゅんてき</rt></ruby>なインターフェース。",
+        "ENG": "A standard interface for connecting computers and peripheral devices.",
+        "VIE": "Giao diện tiêu chuẩn để kết nối máy tính và thiết bị ngoại vi.",
+        "NEP": "कम्प्युटर र परिधीय उपकरणहरू जडान गर्न प्रयोग गरिने मानक इन्टरफेस।",
+        "MYA": "ကွန်ပျူတာနှင့် မျက်နှာပြင်ပစ္စည်းများချိတ်ဆက်ရန် အသုံးပြုသော စံနှုန်းမျှသော အင်တာဖေ့စ်။",
+        "SIN": "පරිගණක හා පරිපූරක උපාංග සම්බන්ධ කිරීම සඳහා භාවිතා කරන සම්මත අතුරුමුහුණතකි.",
+        "BEN": "কম্পিউটার এবং পেরিফেরাল ডিভাইস সংযুক্ত করার জন্য একটি স্ট্যান্ডার্ড ইন্টারফেস।"
+      }
+    },
+    {
+      "term": "ポート",
+      "kana": "ポート",
+      "english": "Port",
+      "definitions": {
+        "JPN": "コンピュータと<ruby><rb>外部</rb><rt>がいぶ</rt></ruby><ruby><rb>機器</rb><rt>きき</rt></ruby>を<ruby><rb>接続</rb><rt>せつぞく</rt></ruby>するための<ruby><rb>物理的</rb><rt>ぶつりてき</rt></ruby>または<ruby><rb>仮想的</rb><rt>かそうてき</rt></ruby>な<ruby><rb>接続口</rb><rt>せつぞくぐち</rt></ruby>。",
+        "ENG": "A physical or virtual connection point for connecting computers and external devices.",
+        "VIE": "Cổng kết nối vật lý hoặc ảo để kết nối máy tính và thiết bị bên ngoài.",
+        "NEP": "कम्प्युटर र बाह्य उपकरणहरू जडान गर्न भौतिक वा भर्चुअल जडान बिन्दु।",
+        "MYA": "ကွန်ပျူတာနှင့် ပြင်ပစက်များချိတ်ဆက်ရန် အသုံးပြုသော ရုပ်ပိုင်းဆိုင်ရာ သို့မဟုတ် မျှတသော ချိတ်ဆက်မှုနေရာ။",
+        "SIN": "පරිගණක හා බාහිර උපකරණ සම්බන්ධ කිරීම සඳහා භාවිතා කරන භෞතික හෝ අතථ්‍ය සම්බන්ධතා ස්ථානයකි.",
+        "BEN": "কম্পিউটার এবং বাহ্যিক ডিভাইস সংযুক্ত করার জন্য একটি শারীরিক বা ভার্চুয়াল সংযোগ বিন্দু।"
+      }
+    },
+    {
+      "term": "グラフィックカード",
+      "kana": "グラフィックカード",
+      "english": "Graphics Card",
+      "definitions": {
+        "JPN": "<ruby><rb>画像</rb><rt>がぞう</rt></ruby>や<ruby><rb>動画</rb><rt>どうが</rt></ruby>を<ruby><rb>処理</rb><rt>しょり</rt></ruby>し、ディスプレイに<ruby><rb>映像</rb><rt>えいぞう</rt></ruby>を<ruby><rb>出力</rb><rt>しゅつりょく</rt></ruby>するための<ruby><rb>専用</rb><rt>せんよう</rt></ruby>の<ruby><rb>部品</rb><rt>ぶひん</rt></ruby>。",
+        "ENG": "A dedicated component for processing images and videos and outputting visuals to a display.",
+        "VIE": "Một thành phần chuyên dụng để xử lý hình ảnh, video và xuất hình ảnh ra màn hình.",
+        "NEP": "छवि र भिडियो प्रशोधन गरी प्रदर्शनमा दृश्य आउटपुट गर्न प्रयोग गरिने विशेष कम्पोनेन्ट।",
+        "MYA": "ပုံရိပ်နှင့် ဗီဒီယိုများကို လုပ်ဆောင်ပြီး မျက်နှာပြင်သို့ ပုံဖော်ပေးသော သီးခြားပစ္စည်း။",
+        "SIN": "රූප සහ වීඩියෝ සැකසීම සහ සංදර්ශකයකට දෘශ්‍ය ප්‍රතිදානය කිරීම සඳහා භාවිතා කරන විශේෂිත අංගයකි.",
+        "BEN": "চিত্র এবং ভিডিও প্রক্রিয়াকরণ এবং ডিসপ্লেতে চিত্র আউটপুটের জন্য একটি বিশেষায়িত উপাদান।"
+      }
+    },
+    {
+      "term": "冷却ファン",
+      "kana": "<ruby><rb>冷却</rb><rt>れいきゃく</rt></ruby>ファン",
+      "english": "Cooling Fan",
+      "definitions": {
+        "JPN": "コンピュータ<ruby><rb>内部</rb><rt>ないぶ</rt></ruby>の<ruby><rb>熱</rb><rt>ねつ</rt></ruby>を<ruby><rb>逃</rb><rt>に</rt></ruby>がし、<ruby><rb>適切</rb><rt>てきせつ</rt></ruby>な<ruby><rb>温度</rb><rt>おんど</rt></ruby>を<ruby><rb>保</rb><rt>たも</rt></ruby>つためのファン。",
+        "ENG": "A fan that dissipates heat inside a computer and maintains an appropriate temperature.",
+        "VIE": "Quạt giúp tản nhiệt bên trong máy tính và duy trì nhiệt độ thích hợp.",
+        "NEP": "कम्प्युटर भित्रको ताप हटाउन र उचित तापमान कायम राख्न प्रयोग गरिने पंखा।",
+        "MYA": "ကွန်ပျူတာအတွင်းရှိ အပူထွက်မှုကို လျော့ချရန်နှင့် သင့်လျှော်သော အပူချိန်ကို ထိန်းသိမ်းရန် အသုံးပြုသော ဖန်။",
+        "SIN": "පරිගණකයේ ඇතුළත තාපායනය කිරීම සහ සුදුසු උෂ්ණත්වය පවත්වා ගැනීම සඳහා භාවිතා කරන විශේෂිත පංකාවකි.",
+        "BEN": "কম্পিউটারের ভিতরের তাপ অপসারণ এবং সঠিক তাপমাত্রা বজায় রাখতে ব্যবহৃত একটি ফ্যান।"
+      }
+    },
+    {
+      "term": "BIOS",
+      "kana": "バイオス",
+      "english": "Basic Input/Output System",
+      "definitions": {
+        "JPN": "コンピュータの<ruby><rb>起動</rb><rt>きどう</rt></ruby><ruby><rb>時</rb><rt>じ</rt></ruby>に<ruby><rb>基本的</rb><rt>きほんてき</rt></ruby>なハードウェアの<ruby><rb>動作</rb><rt>どうさ</rt></ruby>を<ruby><rb>制御</rb><rt>せいぎょ</rt></ruby>するシステム。",
+        "ENG": "A system that controls basic hardware operations when a computer starts up.",
+        "VIE": "Hệ thống kiểm soát hoạt động cơ bản của phần cứng khi máy tính khởi động.",
+        "NEP": "कम्प्युटर सुरू हुँदा आधारभूत हार्डवेयर सञ्चालन नियन्त्रण गर्ने प्रणाली।",
+        "MYA": "ကွန်ပျူတာစတင်သောအခါ အခြေခံ ဟာ့ဒ်ဝဲလုပ်ငန်းဆောင်ရွက်မှုများကို ထိန်းချုပ်သော စနစ်။",
+        "SIN": "පරිගණකය ආරම්භ වූ විට මූලික දෘඩාංග මෙහෙයුම් පාලනය කරන පද්ධතියකි.",
+        "BEN": "একটি সিস্টেম যা কম্পিউটার চালু হলে মৌলিক হার্ডওয়্যার ক্রিয়াকলাপ নিয়ন্ত্রণ করে।"
+      }
+    },
+    {
+      "term": "RAM",
+      "kana": "<ruby><rb>RAM</rb><rt>ラム</rt></ruby>",
+      "english": "Random Access Memory",
+      "definitions": {
+        "JPN": "<ruby><rb>一時的</rb><rt>いちじてき</rt></ruby>にデータを<ruby><rb>保存</rb><rt>ほぞん</rt></ruby>し、プログラムの<ruby><rb>実行</rb><rt>じっこう</rt></ruby><ruby><rb>速度</rb><rt>そくど</rt></ruby>を<ruby><rb>向上</rb><rt>こうじょう</rt></ruby>させるメモリ。",
+        "ENG": "Memory that temporarily stores data and improves program execution speed.",
+        "VIE": "Bộ nhớ lưu trữ dữ liệu tạm thời và tăng tốc độ thực thi chương trình.",
+        "NEP": "अस्थायी रूपमा डेटा भण्डारण गर्ने र प्रोग्राम कार्यान्वयन गति सुधार गर्ने मेमोरी।",
+        "MYA": "ဒေတာကို ယာယီသိမ်းဆည်းပြီး ပရိုဂရမ်လုပ်ဆောင်မှုမြန်နှုန်းကို တိုးတက်စေသော မှတ်ဉာဏ်။",
+        "SIN": "තාවකාලිකව දත්ත ගබඩා කර වැඩසටහන් ක්‍රියාත්මක වේගය වැඩි දියුණු කරන මතකයයි.",
+        "BEN": "এমন একটি মেমোরি যা অস্থায়ীভাবে ডেটা সংরক্ষণ করে এবং প্রোগ্রাম এক্সিকিউশন গতি উন্নত করে।"
+      }
+    },
+    {
+      "term": "ROM",
+      "kana": "<ruby><rb>ROM</rb><rt>ロム</rt></ruby>",
+      "english": "Read-Only Memory",
+      "definitions": {
+        "JPN": "<ruby><rb>電源</rb><rt>でんげん</rt></ruby>を<ruby><rb>切</rb><rt>き</rt></ruby>ってもデータが<ruby><rb>消</rb><rt>き</rt></ruby>えない、<ruby><rb>読</rb><rt>よ</rt></ruby>み<ruby><rb>取</rb><rt>と</rt></ruby>り<ruby><rb>専用</rb><rt>せんよう</rt></ruby>のメモリ。",
+        "ENG": "A read-only memory that retains data even when the power is turned off.",
+        "VIE": "Bộ nhớ chỉ đọc, không mất dữ liệu ngay cả khi tắt nguồn.",
+        "NEP": "पावर बन्द गर्दा पनि डेटा हराउँदैन, केवल पढ्न सकिने मेमोरी।",
+        "MYA": "မီးပြတ်သွားပါကမှတင် ဒေတာမပျောက်သော ဖတ်နိုင်သက်သာသော မှတ်ဉာဏ်။",
+        "SIN": "විදුලිය විසන්ධි වූවත් දත්ත අකලට නැති නොවෙන, පරිශීලකයා විසින් පමණක් කියවිය හැකි මතකය.",
+        "BEN": "এমন একটি মেমোরি যা বিদ্যুৎ বন্ধ হলেও ডেটা হারায় না এবং শুধুমাত্র পড়া যায়।"
+      }
+    },
+    {
+      "term": "クラウド",
+      "kana": "クラウド",
+      "english": "Cloud",
+      "definitions": {
+        "JPN": "インターネットを<ruby><rb>通</rb><rt>つう</rt></ruby>じてデータを<ruby><rb>保存</rb><rt>ほぞん</rt></ruby>・<ruby><rb>管理</rb><rt>かんり</rt></ruby>し、どこからでもアクセスできるサービス。",
+        "ENG": "A service that stores and manages data over the internet, accessible from anywhere.",
+        "VIE": "Dịch vụ lưu trữ và quản lý dữ liệu qua internet, có thể truy cập từ bất kỳ đâu.",
+        "NEP": "इन्टरनेट मार्फत डेटा भण्डारण र व्यवस्थापन गर्ने, जुन कहींबाट पनि पहुँच गर्न सकिन्छ।",
+        "MYA": "အင်တာနက်မှတစ်ဆင့် ဒေတာကို သိမ်းဆည်း၍ စီမံခန့်ခွဲနိုင်ပြီး မည်သည့်နေရာမှမဆို အသုံးပြုနိုင်သော ဝန်ဆောင်မှု။",
+        "SIN": "අන්තර්ජාලය හරහා දත්ත ගබඩා කර කළමනාකරණය කරන අතර, ඕනෑම ස්ථානයක සිට ප්‍රවේශ විය හැකි සේවාවකි.",
+        "BEN": "একটি পরিষেবা যা ইন্টারনেটের মাধ্যমে ডেটা সংরক্ষণ এবং পরিচালনা করে এবং যে কোনও স্থান থেকে প্রবেশযোগ্য।"
+      }
+    },
+    {
+      "term": "ファームウェア",
+      "kana": "ファームウェア",
+      "english": "Firmware",
+      "definitions": {
+        "JPN": "ハードウェアを<ruby><rb>制御</rb><rt>せいぎょ</rt></ruby>するために<ruby><rb>組</rb><rt>く</rt></ruby>み<ruby><rb>込</rb><rt>こ</rt></ruby>まれたソフトウェアで、<ruby><rb>通常</rb><rt>つうじょう</rt></ruby>は<ruby><rb>変更</rb><rt>へんこう</rt></ruby>されない。",
+        "ENG": "Embedded software that controls hardware and is usually not modified.",
+        "VIE": "Phần mềm nhúng để điều khiển phần cứng, thường không thay đổi.",
+        "NEP": "हार्डवेयर नियन्त्रण गर्न प्रयोग गरिने एम्बेडेड सफ्टवेयर, जुन सामान्यत: परिवर्तन गरिन्न।",
+        "MYA": "ဟာ့ဒ်ဝဲကို ထိန်းချုပ်ရန် ထည့်သွင်းထားသော ဆော့ဖ်ဝဲဖြစ်ပြီး ပုံမှန်အားဖြင့် မပြောင်းလဲသင့်ပါ။",
+        "SIN": "දෘඩාංග පාලනය සඳහා ඒකාබද්ධ කරන ලද මෘදුකාංගයකි, එය සාමාන්‍යයෙන් වෙනස් නොවේ.",
+        "BEN": "হার্ডওয়্যার নিয়ন্ত্রণের জন্য এম্বেডেড সফ্টওয়্যার, যা সাধারণত পরিবর্তন করা হয় না।"
+      }
+    },
+    {
+      "term": "ドライバ",
+      "kana": "ファームウェア",
+      "english": "Driver",
+      "definitions": {
+        "JPN": "コンピュータが<ruby><rb>周辺</rb><rt>しゅうへん</rt></ruby><ruby><rb>機器</rb><rt>きき</rt></ruby>を<ruby><rb>適切</rb><rt>てきせつ</rt></ruby>に<ruby><rb>動作</rb><rt>どうさ</rt></ruby>させるためのソフトウェア。",
+        "ENG": "Software that enables a computer to properly operate peripheral devices.",
+        "VIE": "Phần mềm giúp máy tính vận hành thiết bị ngoại vi một cách chính xác.",
+        "NEP": "कम्प्युटरले परिधीय यन्त्रहरू सही रूपमा सञ्चालन गर्न आवश्यक सफ्टवेयर।",
+        "MYA": "ကွန်ပျူတာသည် ပရစ်ဖေရယ်ပစ္စည်းများကို မှန်ကန်စွာ လုပ်ဆောင်နိုင်ရန်လိုအပ်သော ဆော့ဖ်ဝဲ။",
+        "SIN": "පරිගණකය පරිධි උපාංග හෝ වෙනත් උපකරණයන් නිවැරදිව ක්‍රියා කිරීමට අවශ්‍ය මෘදුකාංගයකි.",
+        "BEN": "কম্পিউটার যাতে সঠিকভাবে পার্শ্ববর্তী ডিভাইসগুলি পরিচালনা করতে পারে তার জন্য প্রয়োজনীয় সফ্টওয়্যার।"
+      }
+    },
+    {
+      "term": "デフラグ",
+      "kana": "デフラグ",
+      "english": "Defragmentation",
+      "definitions": {
+        "JPN": "ハードディスク<ruby><rb>内</rb><rt>ない</rt></ruby>のバラバラになったデータを<ruby><rb>整理</rb><rt>せいり</rt></ruby>し、アクセス<ruby><rb>速度</rb><rt>そくど</rt></ruby>を<ruby><rb>向上</rb><rt>こうじょう</rt></ruby>させる<ruby><rb>処理</rb><rt>しょり</rt></ruby>。",
+        "ENG": "A process that organizes fragmented data on a hard disk to improve access speed.",
+        "VIE": "Quá trình sắp xếp dữ liệu phân mảnh trên ổ cứng để cải thiện tốc độ truy cập.",
+        "NEP": "हार्ड डिस्कमा छरिएको डेटा मिलाएर पहुँच गति सुधार गर्ने प्रक्रिया।",
+        "MYA": "Hard disk ပေါ်ရှိအခွဲခွဲခြားခြားရှိသောဒေတာများကို ပြန်လည်စီမံပြီး ဝင်ရောက်မှုမြန်နှုန်းကို တိုးမြှင့်သောလုပ်ငန်းစဉ်။",
+        "SIN": "දෘඩ තැටියේ විකිණීම් වූ දත්ත සකස් කර ප්‍රවේශයේ වේගය වැඩි කරන ක්‍රියාවලියකි.",
+        "BEN": "হার্ড ডিস্কে বিভক্ত ডেটা সংগঠিত করে অ্যাক্সেসের গতি উন্নত করার প্রক্রিয়া।"
+      }
+    },
+    {
+      "term": "スロット",
+      "kana": "スロット",
+      "english": "Slot",
+      "definitions": {
+        "JPN": "メモリや<ruby><rb>拡張</rb><rt>かくちょう</rt></ruby>カードを<ruby><rb>差</rb><rt>さ</rt></ruby>し<ruby><rb>込</rb><rt>こ</rt></ruby>むための<ruby><rb>接続口</rb><rt>せつぞくぐち</rt></ruby>。",
+        "ENG": "A connector used for inserting memory or expansion cards.",
+        "VIE": "Cổng kết nối để cắm bộ nhớ hoặc thẻ mở rộng.",
+        "NEP": "मेमोरी वा विस्तार कार्ड जोड्न प्रयोग गरिने जडान पोर्ट।",
+        "MYA": "မှတ်ဉာဏ် သို့မဟုတ် ဖြန့်ချဲ့ကဒ်များ ထည့်သွင်းရန်အသုံးပြုသော ချိတ်ဆက်မှု။",
+        "SIN": "මතක හෝ දිගු කිරීම් කාඩ්පත් ඇතුළත් කිරීමට භාවිතා කරන සම්බන්ධකය.",
+        "BEN": "মেমরি বা এক্সপ্যানশন কার্ড সংযুক্ত করার জন্য ব্যবহৃত সংযোগকারী।"
+      }
+    },
+    {
+      "term": "ピクセル",
+      "kana": "ピクセル",
+      "english": "Pixel",
+      "definitions": {
+        "JPN": "<ruby><rb>画像</rb><rt>がぞう</rt></ruby>を<ruby><rb>構成</rb><rt>こうせい</rt></ruby>する<ruby><rb>最小</rb><rt>さいしょう</rt></ruby><ruby><rb>単位</rb><rt>たんい</rt></ruby>の<ruby><rb>点</rb><rt>てん</rt></ruby>。",
+        "ENG": "The smallest unit of an image, forming its structure.",
+        "VIE": "Đơn vị nhỏ nhất cấu tạo nên hình ảnh.",
+        "NEP": "तस्बिर बनाउन प्रयोग हुने सबैभन्दा सानो इकाई।",
+        "MYA": "ရုပ်ပုံတစ်ခုကို ဖွဲ့စည်းသော အငယ်ဆုံးယူနစ်။",
+        "SIN": "රූපයක් සෑදෙන කුඩාම ඒකකය.",
+        "BEN": "একটি চিত্র গঠনের ক্ষুদ্রতম একক।"
+      }
+    },
+    {
+      "term": "圧縮",
+      "kana": "<ruby><rb>圧縮</rb><rt>あっしゅく</rt></ruby>",
+      "english": "Compression",
+      "definitions": {
+        "JPN": "データのサイズを<ruby><rb>小</rb><rt>ちい</rt></ruby>さくして、<ruby><rb>保存</rb><rt>ほぞん</rt></ruby>や<ruby><rb>転送</rb><rt>てんそう</rt></ruby>を<ruby><rb>効率</rb><rt>こうりつ</rt></ruby><ruby><rb>的</rb><rt>てき</rt></ruby>にする<ruby><rb>技術</rb><rt>ぎじゅつ</rt></ruby>。",
+        "ENG": "A technique that reduces data size for efficient storage and transfer.",
+        "VIE": "Kỹ thuật giảm kích thước dữ liệu để lưu trữ và truyền tải hiệu quả.",
+        "NEP": "डेटा भण्डारण र स्थानान्तरणलाई प्रभावकारी बनाउन साइज घटाउने प्रविधि।",
+        "MYA": "ဒေတာ၏အရွယ်အစားကို လျှော့ချပြီး သိမ်းဆည်းခြင်းနှင့် ပို့ဆောင်မှုကို ထိရောက်စေရန် နည်းပညာ။",
+        "SIN": "දත්ත ගබඩා කිරීම සහ ප්‍රවාහනය කළමනාකරණය කිරීමේදී ක්‍රියාවලිය ඉහළ නැංවීමට දත්ත ප්‍රමාණය අඩු කරන තාක්‍ෂණය.",
+        "BEN": "ডেটার আকার কমিয়ে সংরক্ষণ এবং স্থানান্তরকে কার্যকর করার প্রযুক্তি।"
+      }
+    },
+    {
+      "term": "解凍",
+      "kana": "<ruby><rb>解凍</rb><rt>かいとう</rt></ruby>",
+      "english": "Decompression",
+      "definitions": {
+        "JPN": "<ruby><rb>圧縮</rb><rt>あっしゅく</rt></ruby>されたデータを<ruby><rb>元</rb><rt>もと</rt></ruby>の<ruby><rb>状態</rb><rt>じょうたい</rt></ruby>に<ruby><rb>戻</rb><rt>もど</rt></ruby>す<ruby><rb>処理</rb><rt>しょり</rt></ruby>。",
+        "ENG": "The process of restoring compressed data to its original state.",
+        "VIE": "Quá trình khôi phục dữ liệu đã nén về trạng thái ban đầu.",
+        "NEP": "संकुचित डेटा मूल अवस्थामा फर्काउने प्रक्रिया।",
+        "MYA": "အခွံဖောက်ထားသော ဒေတာကို မူလအခြေအနေသို့ ပြန်လည်ပြုလုပ်ခြင်း။",
+        "SIN": "සංකීර්ණ කළ දත්ත මුල් තත්ත්වයට පත් කරන ක්‍රියාවලිය.",
+        "BEN": "সংকুচিত ডেটাকে মূল অবস্থায় পুনরুদ্ধার করার প্রক্রিয়া।"
+      }
+    },
+    {
+      "term": "プロセス",
+      "kana": "プロセス",
+      "english": "Process",
+      "definitions": {
+        "JPN": "コンピュータが<ruby><rb>実行</rb><rt>じっこう</rt></ruby>している<ruby><rb>処理</rb><rt>しょり</rt></ruby>の<ruby><rb>単位</rb><rt>たんい</rt></ruby>。",
+        "ENG": "A unit of execution in a computer system.",
+        "VIE": "Một đơn vị xử lý đang chạy trong hệ thống máy tính.",
+        "NEP": "कम्प्युटर प्रणालीमा चल्ने एउटा कार्य एकाइ।",
+        "MYA": "ကွန်ပျူတာစနစ်တွင် လုပ်ဆောင်နေသော တစ်ခုသောလုပ်ငန်း။",
+        "SIN": "පරිගණක පද්ධතියක් තුළ ක්‍රියාත්මක වන ක්‍රියාවලියක ඒකකය.",
+        "BEN": "একটি কম্পিউটার সিস্টেমে চলমান কার্যকারিতা।"
+      }
+    },
+    {
+      "term": "バグ",
+      "kana": "バグ",
+      "english": "Bug",
+      "definitions": {
+        "JPN": "プログラムに<ruby><rb>存在</rb><rt>そんざい</rt></ruby>する<ruby><rb>誤</rb><rt>あやま</rt></ruby>りや<ruby><rb>不具合</rb><rt>ふぐあい</rt></ruby>。",
+        "ENG": "An error or flaw in a program.",
+        "VIE": "Lỗi hoặc sai sót trong chương trình.",
+        "NEP": "प्रोग्राममा रहेको त्रुटि वा समस्या।",
+        "MYA": "ပရိုဂရမ်တွင်ရှိသော အမှား သို့မဟုတ် ချို့ယွင်းမှု။",
+        "SIN": "වැඩසටහනක ඇති දෝෂයකි.",
+        "BEN": "একটি প্রোগ্রামের মধ্যে থাকা ত্রুটি বা সমস্যা।"
+      }
+    },
+    {
+      "term": "デバッグ",
+      "kana": "デバッグ",
+      "english": "Debug",
+      "definitions": {
+        "JPN": "プログラムのバグを<ruby><rb>見</rb><rt>み</rt></ruby>つけて<ruby><rb>修正</rb><rt>しゅうせい</rt></ruby>する<ruby><rb>作業</rb><rt>さぎょう</rt></ruby>。",
+        "ENG": "The process of finding and fixing bugs in a program.",
+        "VIE": "Quá trình tìm kiếm và sửa lỗi trong chương trình.",
+        "NEP": "प्रोग्राममा रहेको बग फेला पार्ने र समाधान गर्ने प्रक्रिया।",
+        "MYA": "ပရိုဂရမ်ထဲမှ ချို့ယွင်းချက်များကို ရှာဖွေပြီး ပြင်ဆင်ခြင်း။",
+        "SIN": "වැඩසටහන් දෝෂ හඳුනාගෙන විසඳීමේ ක්‍රියාවලිය.",
+        "BEN": "প্রোগ্রামের মধ্যে থাকা বাগ খুঁজে বের করে তা সংশোধনের প্রক্রিয়া।"
+      }
+    },
+    {
+      "term": "フリーズ",
+      "kana": "フリーズ",
+      "english": "Freeze",
+      "definitions": {
+        "JPN": "コンピュータやアプリケーションが<ruby><rb>応答</rb><rt>おうとう</rt></ruby>しなくなる<ruby><rb>現象</rb><rt>げんしょう</rt></ruby>。",
+        "ENG": "A condition where a computer or application stops responding.",
+        "VIE": "Tình trạng máy tính hoặc ứng dụng không phản hồi.",
+        "NEP": "कम्प्युटर वा एप्लिकेसनले प्रतिक्रिया दिन छोड्ने अवस्था।",
+        "MYA": "ကွန်ပျူတာ သို့မဟုတ် အက်ပ်လီကေးရှင်း တုံ့ပြန်မှုမရှိသည့်အခြေအနေ။",
+        "SIN": "පරිගණකය හෝ යෙදුමක් ප්‍රතිචාර නොදක්වන තත්ත්වයක්.",
+        "BEN": "যখন কম্পিউটার বা অ্যাপ্লিকেশন প্রতিক্রিয়া দেয় না।"
+      }
+    },
+    {
+      "term": "バックアップ",
+      "kana": "バックアップ",
+      "english": "Backup",
+      "definitions": {
+        "JPN": "データの<ruby><rb>損失</rb><rt>そんしつ</rt></ruby>に<ruby><rb>備</rb><rt>そな</rt></ruby>えてコピーを<ruby><rb>保存</rb><rt>ほぞん</rt></ruby>すること。",
+        "ENG": "The process of saving a copy of data to prevent loss.",
+        "VIE": "Quá trình lưu bản sao dữ liệu để tránh mất mát.",
+        "NEP": "डाटा गुम्न नदिन प्रतिलिपि बचत गर्ने प्रक्रिया।",
+        "MYA": "ဒေတာဆုံးရှုံးမှု မဖြစ်စေရန် မိတ္တူသိမ်းဆည်းခြင်း။",
+        "SIN": "දත්ත නැතිවීම වැළැක්වීම සඳහා පිටපත් කිරීමේ ක්‍රියාවලිය.",
+        "BEN": "ডেটা হারানো রোধ করতে একটি অনুলিপি সংরক্ষণের প্রক্রিয়া।"
+      }
+    },
+    {
+      "term": "フォーマット",
+      "kana": "フォーマット",
+      "english": "Format",
+      "definitions": {
+        "JPN": "ストレージを<ruby><rb>初期</rb><rt>しょき</rt></ruby><ruby><rb>化</rb><rt>か</rt></ruby>し、データを<ruby><rb>削除</rb><rt>さくじょ</rt></ruby>して<ruby><rb>新</rb><rt>あら</rt></ruby>たに<ruby><rb>使</rb><rt>つか</rt></ruby>える<ruby><rb>状態</rb><rt>じょうたい</rt></ruby>にすること",
+        "ENG": "The process of initializing storage by erasing data and preparing it for use.",
+        "VIE": "Quá trình khởi tạo bộ nhớ bằng cách xóa dữ liệu và chuẩn bị để sử dụng.",
+        "NEP": "डाटा मेटाएर भण्डारणलाई नयाँ अवस्थामा ल्याउने प्रक्रिया।",
+        "MYA": "ဒေတာဖျက်ပြီးသုံးနိုင်ရန် သိုလှောင်မှုကို စတင်ပြုလုပ်ခြင်း။",
+        "SIN": "දත්ත මකා නව භාවිතයට සූදානම් කිරීමේ ක්‍රියාවලිය.",
+        "BEN": "ডেটা মুছে নতুনভাবে ব্যবহারের জন্য স্টোরেজ প্রস্তুত করার প্রক্রিয়া।"
+      }
+    },
+    {
+      "term": "スクリーンセーバー",
+      "kana": "スクリーンセーバー",
+      "english": "Screensaver",
+      "definitions": {
+        "JPN": "<ruby><rb>画面</rb><rt>がめん</rt></ruby>の<ruby><rb>焼</rb><rt>や</rt></ruby>き<ruby><rb>付</rb><rt>つ</rt></ruby>き<ruby><rb>防止</rb><rt>ぼうし</rt></ruby>や<ruby><rb>装飾</rb><rt>そうしょく</rt></ruby>のために<ruby><rb>一定</rb><rt>いってい</rt></ruby><ruby><rb>時間後</rb><rt>じかんご</rt></ruby>に<ruby><rb>表示</rb><rt>ひょうじ</rt></ruby>される<ruby><rb>画像</rb><rt>がぞう</rt></ruby>やアニメーション。",
+        "ENG": "An image or animation that appears after a set time to prevent screen burn-in or for decoration.",
+        "VIE": "Hình ảnh hoặc hoạt ảnh xuất hiện sau một thời gian nhất định để tránh cháy màn hình hoặc trang trí.",
+        "NEP": "स्क्रिन जल्नबाट जोगाउन वा सजावटका लागि केही समयपछि देखिने छवि वा एनिमेसन।",
+        "MYA": "မျက်နှာပြင်မီးမတောက်ခြင်းမှ ကာကွယ်ရန် သို့မဟုတ် အလှဆင်ရန် သတ်မှတ်ချိန်အပြီး ပေါ်လာသော ပုံ သို့မဟုတ် အနုမြူရှင်း။",
+        "SIN": "තිරය විනාශ වීම වළක්වීමට හෝ අලංකරණය සඳහා කාලයකට පසු පෙනෙන රූපයක් හෝ ඇනිමේෂන්.",
+        "BEN": "স্ক্রিন বার্ন-ইন প্রতিরোধ বা সৌন্দর্যের জন্য নির্দিষ্ট সময় পরে প্রদর্শিত একটি চিত্র বা অ্যানিমেশন।"
+      }
+    },
+    {
+      "term": "マルウェア",
+      "kana": "マルウェア",
+      "english": "Malware",
+      "definitions": {
+        "JPN": "コンピュータに<ruby><rb>害</rb><rt>がい</rt></ruby>を<ruby><rb>与</rb><rt>あた</rt></ruby>えるために<ruby><rb>作</rb><rt>つく</rt></ruby>られた<ruby><rb>悪意</rb><rt>あくい</rt></ruby>のあるソフトウェアの<ruby><rb>総称</rb><rt>そうしょう</rt></ruby>。",
+        "ENG": "A general term for malicious software designed to harm a computer.",
+        "VIE": "Thuật ngữ chung cho phần mềm độc hại được thiết kế để gây hại cho máy tính.",
+        "NEP": "कम्प्युटरलाई नोक्सान पुर्याउन डिजाइन गरिएको हानिकारक सफ्टवेयरको सामान्य नाम।",
+        "MYA": "ကွန်ပျူတာကို ထိခိုက်စေရန် ဖန်တီးထားသော မကောင်းဆိုးဝါးဆော့ဖ်ဝဲအမျိုးအစား။",
+        "SIN": "පරිගණකයට හානියක් සිදු කිරීමට නිර්මාණය කරන ලද දුෂ්ට මෘදුකාංගයට අදාළ පොදු නාමයක්.",
+        "BEN": "কম্পিউটারে ক্ষতি করার জন্য তৈরি করা ম্যালিসিয়াস সফ্টওয়্যারের সাধারণ নাম।"
+      }
+    },
+    {
+      "term": "アンチウイルスソフト",
+      "kana": "アンチウイルスソフト",
+      "english": "Antivirus Software",
+      "definitions": {
+        "JPN": "ウイルスやマルウェアからコンピュータを<ruby><rb>保護</rb><rt>ほご</rt></ruby>するためのソフトウェア。",
+        "ENG": "Software designed to protect a computer from viruses and malware.",
+        "VIE": "Phần mềm được thiết kế để bảo vệ máy tính khỏi vi-rút và phần mềm độc hại.",
+        "NEP": "भाइरस र मालवेयरबाट कम्प्युटर जोगाउन डिजाइन गरिएको सफ्टवेयर।",
+        "MYA": "ဗိုင်းရပ်စ်နှင့် မာလ်ဝဲယာမှ ကွန်ပျူတာကို ကာကွယ်ရန် တည်ဆောက်ထားသော ဆော့ဖ်ဝဲ။",
+        "SIN": "වෛරස් සහ මැල්වේයර් වලින් පරිගණකය ආරක්ෂා කිරීමට නිර්මාණය කළ මෘදුකාංගය.",
+        "BEN": "ভাইরাস এবং ম্যালওয়্যার থেকে কম্পিউটারকে সুরক্ষিত করার জন্য ডিজাইন করা সফ্টওয়্যার।"
+      }
+    }
+  ]
+}
