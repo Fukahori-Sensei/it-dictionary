@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT用語集</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>IT<ruby>用語集<rp>（</rp><rt>ようごしゅう</rt><rp>）</rp></ruby></h1>
+    </header>
+
+    <main>
+        <!-- 検索ボックス -->
+        <div id="search">
+            <h2><ruby>用語検索<rp>（</rp><rt>ようごけんさく</rt><rp>）</rp></ruby></h2>
+            <div>
+                <input type="text" id="searchBox" placeholder="検索する用語を入力..." onkeyup="searchTerms()">
+                <a href="" onclick="clear()" class="btn">Reset</a>
+            </div>
+        </div>
+    
+    
+    <!-- 頭文字検索 -->
+    <h2><ruby>頭文字<rp>（</rp><rt>かしらもじ</rt><rp>）</rp></ruby>で<ruby>探<rp>（</rp><rt>さが</rt><rp>）</rp>す</ruby></h2>
+    <div id="alphabetFilter">
+        <button onclick="filterByLetter('ALL')" class="btn_alphabeb">ALL</button>
+        <button onclick="filterByLetter('A')" class="btn_alphabeb">A</button>
+        <button onclick="filterByLetter('B')" class="btn_alphabeb">B</button>
+        <button onclick="filterByLetter('C')" class="btn_alphabeb">C</button>
+        <button onclick="filterByLetter('D')" class="btn_alphabeb">D</button>
+        <button onclick="filterByLetter('E')" class="btn_alphabeb">E</button>
+        <button onclick="filterByLetter('F')" class="btn_alphabeb">F</button>
+        <button onclick="filterByLetter('G')" class="btn_alphabeb">G</button>
+        <button onclick="filterByLetter('H')" class="btn_alphabeb">H</button>
+        <button onclick="filterByLetter('I')" class="btn_alphabeb">I</button>
+        <button onclick="filterByLetter('J')" class="btn_alphabeb">J</button>
+        <button onclick="filterByLetter('K')" class="btn_alphabeb">K</button>
+        <button onclick="filterByLetter('L')" class="btn_alphabeb">L</button>
+        <button onclick="filterByLetter('M')" class="btn_alphabeb">M</button>
+        <button onclick="filterByLetter('N')" class="btn_alphabeb">N</button>
+        <button onclick="filterByLetter('O')" class="btn_alphabeb">O</button>
+        <button onclick="filterByLetter('P')" class="btn_alphabeb">P</button>
+        <button onclick="filterByLetter('Q')" class="btn_alphabeb">Q</button>
+        <button onclick="filterByLetter('R')" class="btn_alphabeb">R</button>
+        <button onclick="filterByLetter('S')" class="btn_alphabeb">S</button>
+        <button onclick="filterByLetter('T')" class="btn_alphabeb">T</button>
+        <button onclick="filterByLetter('U')" class="btn_alphabeb">U</button>
+        <button onclick="filterByLetter('V')" class="btn_alphabeb">V</button>
+        <button onclick="filterByLetter('W')" class="btn_alphabeb">W</button>
+        <button onclick="filterByLetter('X')" class="btn_alphabeb">X</button>
+        <button onclick="filterByLetter('Y')" class="btn_alphabeb">Y</button>
+        <button onclick="filterByLetter('Z')" class="btn_alphabeb">Z</button>
+    </div>
+    <hr>
+
+    <!-- 候補リスト -->
+    <ul id="suggestions"></ul>
+    <hr>
+    <!-- 詳細情報 -->
+    <div id="details"></div>
+
+
+    <!-- 検索結果 -->
+    <!--ul id="results"></-ul-->
+
+    </main>
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
