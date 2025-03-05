@@ -1,0 +1,96 @@
+body {
+    font-family: "Noto Sans", "Inter", "IBM Plex Sans", sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #0027b0;
+    color: #f0f0f0;
+    line-height: 100px;
+}
+main {
+    color: #3a3b3b;
+}
+ruby {
+    ruby-align: space-around;
+}
+
+rt {
+    position: relative;
+    top: -3px; /* ルビを上に移動 */
+    font-size: 30%; /* ルビを少し小さく */
+    letter-spacing: 0.05em; /* ルビの文字間隔を調整 */
+}
+
+#search {
+    display: flex;
+    align-items: center;  /* 垂直中央揃え */
+    justify-content: center; /* 水平方向の中央揃え */
+    gap: 20px; /* 要素間の余白 */
+}
+#search input {
+    padding: 8px;
+    font-size: 16px;
+}
+#search button {
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#alphabetFilter {
+    display: flex;
+    flex-wrap: wrap; /* 折り返しを許可 */
+    justify-content: center; /* 中央揃え（必要なら） */
+    gap: 10px; /* ボタン間の余白を確保 */
+}
+
+#suggestions {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    margin: 10px auto;
+    text-align: left;
+}
+.suggestion-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+
+#details {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display: none;
+}
+
+.btn {
+    font-size: 13px;
+    background-color: #3a3b3b;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration:none;
+  }
+
+.btn_alphabeb {
+    font-size: 10px;
+    background-color: #555656;
+    color: #fff;
+    text-decoration:none;
+    display: flex; /* 幅いっぱいに広げる */
+    align-items: center; /* ボタン内のテキストを中央揃え */
+    justify-content: center; /* ボタン内のテキストを中央揃え */
+    padding: 10px 15px;
+    text-decoration: none;
+    min-width: 15px; /* 最小幅を設定し、折り返しのバグを防ぐ */
+}
